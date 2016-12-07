@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llFirstRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvTitleScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCORE:" />
+
+            <TextView
+                android:id="@+id/tvValueScore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your score" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvTitleTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIME:" />
+
+            <TextView
+                android:id="@+id/tvValueTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/btnMenu" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgTask"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_android_black_24dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/llFirstButtonsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn1"
+            android:drawableLeft="@drawable/ic_android_black_24dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn2"
+            android:drawableLeft="@drawable/ic_attach_file_black_24dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn3"
+            android:drawableLeft="@drawable/ic_audiotrack_black_24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSecondButtonsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn4"
+            android:drawableLeft="@drawable/ic_cloud_queue_black_24dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn5"
+            android:drawableLeft="@drawable/ic_directions_run_black_24dp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn6"
+            android:drawableLeft="@drawable/ic_fitness_center_black_24dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llThirdButtonsRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn7"
+            android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn8"
+            android:drawableLeft="@drawable/ic_send_black_24dp"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/btn9"
+            android:drawableLeft="@drawable/ic_star_black_24dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvTitleTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON TEST"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvValueTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="you pressed no button"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>

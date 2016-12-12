@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Game</string>
     <string name="btnMenu">MENU</string>
+    <string name="btnQuit">QUIT</string>
+    <string name="btn0">0</string>
     <string name="btn1">1</string>
     <string name="btn2">2</string>
     <string name="btn3">3</string>
@@ -9,5 +11,5 @@
     <string name="btn6">6</string>
     <string name="btn7">7</string>
     <string name="btn8">8</string>
-    <string name="btn9">9</string>
+
 </resources>
